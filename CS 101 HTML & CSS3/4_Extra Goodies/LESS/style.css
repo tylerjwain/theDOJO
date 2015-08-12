@@ -1,0 +1,168 @@
+.container{
+	background-color: #FFFFFF;
+	min-height: 100px;
+	width: 865px;
+	margin: 0 auto;
+}
+*{
+	/*outline: 1px dotted red;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-family: Tahoma
+}
+
+/*HEADER*/
+/*HEADER TOP*/
+	div.header_top{
+		width: 865px;
+		height: 75px;
+		background-color: #850000;
+	}
+
+		div.header_top img {
+			width: 57%;
+			height: 75px;
+			vertical-align: top;
+		}
+
+		div.right{
+			width: 42%;
+			height: 75px;
+			display: inline-block;
+			padding-top: 5px;
+		}
+
+		div.header p{
+			color: white;
+			font-size: .8em;
+			display: inline-block;
+			padding-left: 60px;
+		}
+
+		div.header ul{
+			display: inline-block;
+		}
+
+		div.header ul li{
+			display: inline-block;
+			color: white;
+			font-size: 1em;
+		}
+
+		div.header li a{
+			color: #FFFA48;
+			list-style-type: none;
+			font-size: .8em;
+			font-family: Arial;
+		}
+
+		div.header form{
+			padding-top: 4px;
+			padding-left: 120px;
+		}
+
+
+/*HEADER BOTTOM*/
+	div.header_bottom{
+		width: 865px;
+		height: 25px;
+		background-color: #EAEAEA;
+		display: inline-block;
+		border-bottom: 1px solid #B4B4B4;
+
+	}
+
+		#grad{
+			background: linear-gradient(#eaeaea,#eeeeee);
+		}
+
+		div.header_bottom li {
+			display: inline-block;
+			padding: 2px 15px 5px 15px;
+			border-left: 1px solid #B4B4B4;
+		}
+
+			div.header_bottom li a{
+				text-decoration: none;
+				color: black;
+				list-style-type: none;
+				font-size: .8em;
+				font-family: Arial;
+			}
+
+
+/*BODY*/
+	div.body {
+		width: 865px;
+		margin-top: 25px;
+		background-color: #FFFFFF;
+	}
+
+/*BODY NAV*/
+		div.nav {
+			width:150px;
+			height: 220px;
+			background-color: #EEEEEE;
+			display: inline-block;
+			vertical-align: top;
+			border-style: solid;
+			border-width: 1.5px;
+		}
+
+			div.nav ul{
+				padding-left: 10px;
+				padding-top: 8px;
+			}
+
+				div.nav li{
+					color: #840000;
+					list-style-type: none;
+					padding-top: 5px;
+				}
+
+				div.nav li a{
+					font-size: .8em;
+					font-family: Arial;
+				}
+
+		div.content {
+			width: 705px;
+			height: 615px;
+			background-color: #FFFFFF;
+			display: inline-block;
+			font-family: Arial;
+			font-size: .9em;
+		}
+			div.content h2, h4, li, a{
+				color: #840000;
+			}
+
+			div.content h4{
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			div.top, div.middle, div.bottom{
+				margin-bottom: 10px;
+				margin-left: 20px;
+			}
+
+			div.content ul, ol{
+				margin-left: 30px;
+			}
+
+			div.top, div.middle{
+				border-bottom-style: solid;
+				padding-bottom: 20px;
+			}
+
+
+
+
+
+
+
+
+
