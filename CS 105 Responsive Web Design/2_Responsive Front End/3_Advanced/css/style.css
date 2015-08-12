@@ -1,0 +1,21 @@
+.container {
+	border: 2px solid #888888;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.header {
+	text-align: center;
+	padding-top: 20px;
+}
+.entry {
+	padding: 20px;
+}
+.entry img, .entry picture, .entry figure{
+	width: 50%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.sidebar {
+	text-align: center;
+}
